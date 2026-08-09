@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="QA Engineer portfolio - web, mobile, API and accessibility testing.">
+  <title>Yevheniia | QA Engineer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Yevheniia home">YR<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button class="theme-toggle" id="themeToggle" aria-label="Switch to dark mode">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">QA ENGINEER • WEB • MOBILE • ACCESSIBILITY</p>
+          <h1>Building confidence in every release.</h1>
+          <p class="hero-text">Hi, I'm <strong>Yevheniia</strong>, a QA Engineer focused on delivering reliable, accessible and user-friendly digital products.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View my projects</a>
+            <a class="button secondary" href="#contact">Contact me</a>
+          </div>
+          <div class="quick-stats" aria-label="Portfolio highlights">
+            <div><strong>Web</strong><span>Testing</span></div>
+            <div><strong>Mobile</strong><span>Testing</span></div>
+            <div><strong>A11y</strong><span>Accessibility</span></div>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="QA mindset">
+          <div class="terminal-top"><span></span><span></span><span></span></div>
+          <p class="code-line"><span>01</span> test("user can book a flight")</p>
+          <p class="code-line"><span>02</span> expect(result).toBe("success")</p>
+          <p class="code-line"><span>03</span> verify(accessibility)</p>
+          <p class="code-line"><span>04</span> report(defects)</p>
+          <p class="code-line success"><span>05</span> ✓ release ready</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>Curious, detail-oriented, user-focused.</h2>
+          <p>I’m a QA Engineer with experience testing web and mobile applications, including booking and mapping solutions. I enjoy turning requirements into meaningful test scenarios and finding issues before they reach users.</p>
+          <p>My approach combines functional testing with accessibility, API, compatibility and regression testing. I believe good QA is not only about finding bugs — it is about helping the team build a better product.</p>
+        </div>
+        <div class="about-list">
+          <div class="about-item"><span>01</span><div><h3>Quality mindset</h3><p>I look at both expected behavior and real user experience.</p></div></div>
+          <div class="about-item"><span>02</span><div><h3>Continuous learning</h3><p>I explore new tools, testing techniques and product domains.</p></div></div>
+          <div class="about-item"><span>03</span><div><h3>Team collaboration</h3><p>I communicate clearly with developers, analysts and stakeholders.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow">SKILLS & TOOLS</p>
+        <h2>What I bring to a project.</h2>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Hard Skills</h3>
+            <ul>
+              <li>Functional & regression testing</li>
+              <li>API testing</li>
+              <li>Web & mobile testing</li>
+              <li>Accessibility testing</li>
+              <li>Cross-browser & responsive testing</li>
+              <li>SQL & database basics</li>
+              <li>Test design & documentation</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Soft Skills</h3>
+            <ul>
+              <li>Analytical thinking</li>
+              <li>Attention to detail</li>
+              <li>Clear communication</li>
+              <li>Problem solving</li>
+              <li>Critical thinking</li>
+              <li>Time management</li>
+              <li>Team collaboration</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Testing & Tech Tools</h3>
+            <ul>
+              <li>Postman • Swagger</li>
+              <li>Chrome DevTools</li>
+              <li>BrowserStack</li>
+              <li>WAVE • axe • Accessibility tools</li>
+              <li>Charles • Fiddler</li>
+              <li>JMeter</li>
+              <li>Git • GitHub</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Management & Collaboration</h3>
+            <ul>
+              <li>Jira • YouTrack</li>
+              <li>TestRail • Zephyr • Xray</li>
+              <li>GitHub Projects</li>
+              <li>Agile / Scrum / Kanban</li>
+              <li>Test plans & checklists</li>
+              <li>Bug reporting & triage</li>
+              <li>Risk-based testing</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <p class="eyebrow">SELECTED PROJECTS</p>
+        <h2>Projects I've worked on.</h2>
+        <p class="section-intro">A few examples of products and domains where I applied functional, mobile, accessibility and regression testing.</p>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-number">01</div>
+            <div class="project-tags"><span>Web</span><span>Mobile</span><span>Booking</span></div>
+            <h3>Flight Booking Application</h3>
+            <p>End-to-end testing of a booking flow covering search, results, passenger details, baggage, insurance, payment and confirmation.</p>
+            <button class="text-button project-details" data-project="booking">View details →</button>
+          </article>
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <div class="project-tags"><span>Maps</span><span>Kiosk</span><span>A11y</span></div>
+            <h3>Airport Wayfinding</h3>
+            <p>Testing airport maps, POIs, level switching, route guidance and interactive retail information across kiosk and web experiences.</p>
+            <button class="text-button project-details" data-project="wayfinding">View details →</button>
+          </article>
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <div class="project-tags"><span>Accessibility</span><span>Web</span><span>WCAG</span></div>
+            <h3>Accessibility Testing</h3>
+            <p>Testing interfaces against WCAG-oriented requirements using keyboard navigation, screen readers, contrast and semantic checks.</p>
+            <button class="text-button project-details" data-project="accessibility">View details →</button>
+          </article>
+          <article class="project-card">
+            <div class="project-number">04</div>
+            <div class="project-tags"><span>API</span><span>Regression</span><span>QA</span></div>
+            <h3>Cloud & API Platform</h3>
+            <p>Functional and API testing of platform workflows, integrations, data validation and regression scenarios.</p>
+            <button class="text-button project-details" data-project="cloud">View details →</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>Let's talk about quality.</h2>
+          <p>Have a project, testing challenge or collaboration idea? Send me a message.</p>
+          <div class="contact-links">
+            <a href="mailto:your.email@example.com">your.email@example.com</a>
+            <a href="https://github.com/" target="_blank" rel="noopener">GitHub profile ↗</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          </div>
+        </div>
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-group"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required><small class="error" id="nameError"></small></div>
+          <div class="form-group"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required><small class="error" id="emailError"></small></div>
+          <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" rows="5" required></textarea><small class="error" id="messageError"></small></div>
+          <button class="button primary" type="submit">Send message</button>
+          <p id="formSuccess" class="success-message" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container"><p>© 2026 Yevheniia Rybalka • QA Engineer Portfolio</p><a href="#home">Back to top ↑</a></div>
+  </footer>
+
+  <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-content" tabindex="-1">
+      <button class="modal-close" id="modalClose" aria-label="Close project details">×</button>
+      <p class="eyebrow">PROJECT DETAILS</p>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+      <h3>Testing focus</h3>
+      <ul id="modalList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
