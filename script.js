@@ -32,25 +32,25 @@ document.querySelectorAll("#navLinks a").forEach(link => {
 });
 
 const projects = {
-  booking: {
-    title: "Flight Booking Application",
+  jcm: {
+    title: "JCM Technologies",
+    description: "Testing the CloudAssistant web platform for managing facilities, equipment and users, integrated with Honoa and Kaimai mobile apps for door access and connected IoT devices.",
+    focus: ["Integration with IoT devices", "Event tracking", "Alerts and occupancy control", "Services and licenses", "Roles and permissions"]
+  },
+  volario: {
+    title: "Volario Flight Booking Application",
     description: "End-to-end QA of a flight booking journey from search to booking confirmation, including external payment flow.",
     focus: ["Search and results", "Passenger and baggage forms", "Insurance and payment", "Regression and compatibility testing", "API and network checks"]
   },
   wayfinding: {
     title: "Airport Wayfinding",
     description: "Testing interactive airport mapping experiences across kiosk and web products, with a focus on navigation and map behavior.",
-    focus: ["POIs and retail information", "3D map and level picker", "Route guidance", "Kiosk and responsive behavior", "Accessibility scenarios"]
+    focus: ["POIs and retail information", "2D and 3D maps", "Route guidance", "Kiosk and responsive behavior", "Accessibility scenarios"]
   },
-  accessibility: {
-    title: "Accessibility Testing",
-    description: "Accessibility-focused testing of web interfaces against WCAG-oriented requirements and common assistive technology scenarios.",
-    focus: ["Keyboard navigation and focus", "Screen reader checks", "Semantic HTML and ARIA", "Color and non-text contrast", "Responsive text and reflow"]
-  },
-  cloud: {
-    title: "Cloud & API Platform",
-    description: "Functional and API testing of platform workflows, integrations and data-driven scenarios.",
-    focus: ["REST API requests", "Response and data validation", "Negative scenarios", "Regression testing", "Defect investigation"]
+  reason: {
+    title: "Reason Digital",
+    description: "Performed functional testing of WordPress and Drupal CMS updates and plugin upgrades across healthcare websites, ensuring proper content management and website functionality.",
+    focus: ["Verifying content creation and editing", "Testing page elements and components", "Verifying form creation and functionality", "Checking front-end rendering and display", "Regression testing after CMS and plugin updates"]
   }
 };
 
